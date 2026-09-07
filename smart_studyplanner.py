@@ -91,6 +91,14 @@ main()
              print("Hours:",session[2])
              print("------------------")
             total_hours = total_hours + session[2]
+def classify_session(duration)
+         if duration<30 :
+             return"short"
+             elif duration <=90 :
+                 return"Medium"
+             else :
+                 return "Long"
+
             
              
      
